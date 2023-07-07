@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url(https://cur.cursors-4u.net/toons/too-7/too643.cur), auto;
+}
+
+header {
+    width: 100%;
+    height: 170px;
+    background-color: #1E1E1E;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding: 79px;
+    font-size: 25px;
+    font-family: 'Lily Script One', cursive;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+
+.bannerdisney {
+    width: 100%;
+}
+
+.bannerdisney img{
+    width: 100%;
+}
+
+.filmes {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 21px 85px;
+}
+
+.filmes figure {
+    width: 100%;
+    height: 100%;
+}
+
+.filmes figure img {
+    margin: 10px;
+    width: 340px;
+    height: 500px;
+}
+
+.filmes figure img:hover{
+    opacity: 0.6;
+    margin: 40px 50px;
+}
+
+footer {
+    width: 100%;
+    height: 170px;
+    background-color: #1E1E1E;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodapecr {
+    font-weight: 400;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.rodapeimg {
+    display: flex;
+    height: 100%;
+    margin: 1px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodapeimg img {
+    width:  45px;
+    height: 45px;
+    margin: 10px;
+    vertical-align: center;
+    text-align: center;
+}
+
+.rodapeimg img:hover {
+    opacity: 0.5;
+    width:  70px;
+    height: 70px;
+    margin: 10px;
+}
+
